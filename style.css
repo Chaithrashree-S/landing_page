@@ -1,0 +1,100 @@
+/* Reset styles for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #b38787;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li a.selected {
+  font-weight: bold;
+  color: #ff0000;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+main {
+  padding: 20px;
+}
+main #cat-profiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+main #cat-profiles .cat-profile {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 30%;
+}
+main #cat-profiles .cat-profile img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+main #cat-profiles .cat-profile h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+main #cat-profiles .cat-profile p {
+  margin-bottom: 10px;
+}
+main #cat-profiles .cat-profile button {
+  background-color: #ad9963;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+main #adoption-process {
+  background-color: #e3c787;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+main #adoption-process h2 {
+  font-size: 24px;
+  margin-bottom: 2;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
